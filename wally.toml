@@ -1,0 +1,27 @@
+[package]
+name = "dbergman/browser-luau"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+ModuleLoader = "crusherfire/module-loader@1.0.1"
+
+# UI Libraries
+Lucide = "latte-soft/lucide-icons@0.1.3"
+UILabs = "pepeeltoro41/ui-labs@2.4.2"
+
+ReactSpring = "chriscerie/react-spring@2.0.0"
+ReactRoblox = "jsdotlua/react-roblox@17.2.1"
+React = "jsdotlua/react@17.2.1"
+
+# Networking
+Packet = "ivasmigins/packet@0.1.0"
+
+# Utils
+Promise = "evaera/promise@4.0.0"
+Trove = "sleitnick/trove@1.8.0"
+
+[server-dependencies]
+# Data Managment
+ProfileStore = "lm-loleris/profilestore@1.0.3"

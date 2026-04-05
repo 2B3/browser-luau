@@ -1,0 +1,42 @@
+{
+  "name": "browser-luau",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "UI": {
+        "$path": "src/ui"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server",
+      "$className": "ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "Services": {
+        "$className": "Configuration",
+        "$path": "src/services"
+      },
+
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    }
+  }
+}
